@@ -74,7 +74,7 @@ class MainWindow(QMainWindow):
 
     # LEFT MENU BTN IS CLICKED
     # Run function when btn is clicked
-    # Check funtion by object name / btn_id
+    # Check function by object name / btn_id
     # ///////////////////////////////////////////////////////////////
     def btn_clicked(self):
         # GET BT CLICKED
@@ -170,7 +170,7 @@ class MainWindow(QMainWindow):
 
         # SETTINGS TITLE BAR
         if btn.objectName() == "btn_top_settings":
-            # Toogle Active
+            # Toggle Active
             if not MainFunctions.right_column_is_visible(self):
                 btn.set_active(True)
 
@@ -192,7 +192,7 @@ class MainWindow(QMainWindow):
 
     # LEFT MENU BTN IS RELEASED
     # Run function when btn is released
-    # Check funtion by object name / btn_id
+    # Check function by object name / btn_id
     # ///////////////////////////////////////////////////////////////
     def btn_released(self):
         # GET BT CLICKED
